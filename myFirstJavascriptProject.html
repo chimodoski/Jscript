@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CountToTen</title>
+</head>
+
+<body>
+    <h1>Lets Count To 10 with Javascript</h1>
+    <p id="theCount"></p>
+<!-- NOTE THAT the script tag can either be placed in the head tag or anywhere within the body tag of html code -->
+    <script>
+        
+            
+            var count = 0;
+            while (count < 10) {
+                count++;
+                document.getElementById("theCount") . innerHTML += count + "<br>";
+            }
+    /* Here delay execution is done byplacing Js code at d end of the html code just before closing the body section */
+    </script>
+</body>
+</html>
